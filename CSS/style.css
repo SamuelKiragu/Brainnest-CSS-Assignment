@@ -49,6 +49,43 @@
     width: 50%;
 }
 
+.Info-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Info-item{
+    width: 16%;
+}
+
+.Info-item div{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 11vw;
+    margin-bottom: 5px;
+    width: 11vw;
+}
+
+.Info-item p{
+    text-align: center;
+}
+
+#Random-Info-Section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15% 7vw;
+    width: 100%;
+}
+
+#Random-Info-Section h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px 0;
+}
+
 a{
     color: #e5e7eb;
     font-size: 18px;
