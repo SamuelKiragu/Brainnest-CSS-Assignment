@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Fonts/Roboto-Black.ttf"), url("./Fonts/Roboto-BlackItalic.ttf"),
+    url("./Fonts/Roboto-Bold.ttf"), url("./Fonts/Roboto-BoldItalic"),
+    url("./Fonts/Roboto-Italic.ttf"), url("./Fonts/Roboto-Light.ttf"),
+    url("./Fonts/Roboto-LightItalic.ttf"), url("./Fonts/Roboto-Medium.ttf"),
+    url("./Fonts/Roboto-MediumItalic.ttf"), url("./Fonts/Roboto-Regular.ttf"),
+    url("./Fonts/Roboto-Thin.ttf"), url("./Roboto-ThinItalic.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';    
+  margin: 0;
+}
+
+#Hero-Section {
+  background: #1f2937;
+  color: #e5e7eb; 
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 10px 10% 0;
+}
+
+.Content-Container{
+    padding: 100px 0;
+}
+
+.Content-Item{
+    width: 42%;
+}
+
+.Header-Container,.Content-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Header-Container a{
+    margin-left: 20px;
+}
+
+.Image-Item{
+    align-items: center;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button{
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    color: #3882f6;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 20px;
+}
+
+button.CTA{
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+}
+
+h1.Main-Text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+p.Secondary-Text{
+    color: #e5e7eb;
+    font-size: 18px; 
+}
