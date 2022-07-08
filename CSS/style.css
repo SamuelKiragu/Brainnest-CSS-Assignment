@@ -14,6 +14,7 @@
   margin: 0;
 }
 
+
 #Hero-Section {
   background: #1f2937;
   color: #e5e7eb; 
@@ -21,6 +22,16 @@
   flex-direction: column;
   font-size: 18px;
   padding: 10px 10% 0;
+}
+
+#Call-To-Action-Section{
+    background: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5% 10%;
+    padding: 40px 9% 40px 9%;
 }
 
 .Content-Container{
@@ -113,9 +124,10 @@ a{
 }
 
 button{
+    background: none;
     border: 1px solid #f9faf8;
     border-radius: 5px;
-    color: #3882f6;
+    color: #f9faf8;
     font-weight: bold;
     margin: 5px 0;
     padding: 5px 20px;
