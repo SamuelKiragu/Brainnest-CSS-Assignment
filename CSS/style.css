@@ -71,11 +71,31 @@
     text-align: center;
 }
 
+#Quote-Section{
+    background: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 7vw 16% 7vw 26%
+}
+
+#Quote-Section p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#Quote-Section h4{
+    font-weight: bold;
+    text-align: right;
+}
+
+
 #Random-Info-Section{
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 0 15% 7vw;
+    padding: 0px 14% 7vw 19%;
     width: 100%;
 }
 
